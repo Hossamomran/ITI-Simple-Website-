@@ -1,0 +1,29 @@
+.split {
+  margin-top:50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+  }
+  
+  .left {
+    left: 0%;
+    padding-left: 100px;
+    width: 0%;
+   
+  }
+  
+  .right {
+    right: 0;
+    width: 90%;
+    
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+  }
+  
+  

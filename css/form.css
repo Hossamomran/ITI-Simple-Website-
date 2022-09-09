@@ -1,0 +1,58 @@
+.formdiv{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    margin-right: 50%;
+    font-size: 18px;
+    width: 50%;
+    border: ridge;
+    background-color: rgb(220, 255, 247);
+
+}
+.astric{
+    color: red;
+}
+.info{
+    color: rgb(0, 128, 255);
+    font-size: 16;
+}
+.finfo{
+    background-color: rgb(155, 247, 225);
+    border:dotted ;
+     font: size 13px;
+}
+label{
+    background-color: rgb(155, 247, 225);
+    display: block;
+    width: 150px; 
+    text-align: right;
+}
+ tr td{
+padding-left: 10px;
+}
+input{
+    width: 300px; 
+     /* margin-left: -15%;  */ 
+}
+
+table {
+  padding-left: 5px; 
+  width:50px;
+  margin-left: 10px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  
+} 
+
+
+.fc{
+  font-size: 15px;
+  margin: 0px;
+}
+.inputPhone{
+  width: 0px;
+}
+
+.ftd input{
+  width: 50px;
+}

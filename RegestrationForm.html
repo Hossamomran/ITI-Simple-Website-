@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <header>
+        <img src="./images/ITI_logo.png" alt="iti logo" width="200p"  class="logo">
+            <ul class="mylist">
+                <li class="list"><a href="./index.html">Home</a></li>
+                <li class="list"><a href="./cmstrack.html">Road Map</a></li>
+                <li class="list"><a href="#">Registration form </a></li>
+                <li class="list"><a href="https://www.iti.gov.eg/"> contact </a></li>
+            </ul>
+    </header>
+    <div class="formdiv">
+        <h3 class="info">
+            Register - Create Account 
+        </h3>
+        <h4 class="finfo">
+            Field marked with <span style="color: red;">*</span> are compulsory field
+        </h4>
+        <form method="post" action="www.iti.com">
+            <table style="width:100%">
+                <tr style="width:200px">
+                    <td> <label><span class="astric">*</span>Your Name</label></td>
+                    <td><input  type="text" placeholder="Enter your full name" required> </td>
+                </tr>
+                <tr>
+                    <td><label><span class="astric">*</span>E-mail ID</label></td>
+                    <td><input type="email" placeholder="example@yahoo.com" required></td>
+                </tr>
+                <tr>
+                    <td> <label>Alternate E-mail ID</label></td>
+                    <td><input type="email" ></td>
+                </tr>
+                <tr class="CountryCode" CELLSPACING=0 >
+                    <td ></td>
+                    <td class="fc">country code - city code - phone number</td>
+                </tr>
+                <tr class="inputPhone" >
+                    <td><label><span class="astric">*</span>Your phone</label></td>
+                    <td class="ftd "> <input type="text" > -<input type="text" >
+                         -<input type="text"  style="width: 200px;"> 
+                    </td>
+                    
+                <tr>
+                    <td></td>
+                </tr>
+                    
+                </tr>
+                <tr>
+                    <td> <label>Mobile phone</label></td>
+                    <td> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td> <label><span class="astric">*</span>Your Portal Address </label> </td>
+                    <td> <textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td><label><span class="astric">*</span>Country</label> </td>
+                    <td>
+                        <select name="cars">
+                            <option value="select one">........SelectOne.........</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label><span class="astric">*</span>Passward</label> </td>
+                    <td> <input type="password"  required> </td>
+                </tr>
+                <tr>
+                    <td> <label><span class="astric">*</span>Re-Enter passward</label></td>
+                    <td> <input type="password"  required></td>
+                </tr>
+            </table>
+            <center>
+                <input type="checkbox" required style="width: 20px; "> I Accept the <u style="color: blue; font-weight: bold;"> <b> <a href="#">Terms of Use</a> </input> <br>
+                <input type="submit" value="Continue>>" style="width: 25%; margin-right: 100px;">
+                <input type="reset" value="Reset" style="width: 25%; padding-left: 25px;padding-right: 25px" >
+            </center>
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <center class="ffooter">Copyright 2021 by Noha salah &reg;. All Rights Reserved </center>
+    </footer>
+</body>
+</html>
